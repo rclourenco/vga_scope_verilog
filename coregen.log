@@ -1,0 +1,59 @@
+WARNING:coreutil:753 - Cannot create directory
+   '/home/renato/.Xilinx/CoreGen/14.7/indexes' in order to save the repository
+   configuration.
+INFO:sim:172 - Generating IP...
+Applying current project options...
+Finished applying current project options.
+WARNING:sim - A core named 'xadc_gen' already exists in the project. Output
+   products for this core may be overwritten.
+Resolving generics for 'xadc_gen'...
+WARNING:sim - A core named 'xadc_gen' already exists in the project. Output
+   products for this core may be overwritten.
+Applying external generics to 'xadc_gen'...
+Delivering associated files for 'xadc_gen'...
+WARNING:sim - Component xadc_wiz_v2_1 does not have a valid model name for
+   Verilog synthesis
+Delivering EJava files for 'xadc_gen'...
+WARNING:sim - Overwriting existing file
+   /home/renato/prose/vga_scope_v1/sources/tmp/_cg/xadc_gen/doc/ug772_xadc_wiz.p
+   df with file from view xilinx_documentation
+Delivered 3 files into directory
+/home/renato/prose/vga_scope_v1/sources/tmp/_cg/xadc_gen
+Delivered 1 file into directory
+/home/renato/prose/vga_scope_v1/sources/tmp/_cg/xadc_gen
+Generating ASY schematic symbol...
+INFO:sim:949 - Finished generation of ASY schematic symbol.
+Generating SYM schematic symbol for 'xadc_gen'...
+Generating metadata file...
+Generating ISE project...
+XCO file found: xadc_gen.xco
+XMDF file found: xadc_gen_xmdf.tcl
+Adding
+/home/renato/prose/vga_scope_v1/sources/tmp/_cg/xadc_gen/example_design/xadc_gen
+_exdes.v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "/home/renato/prose/vga_scope_v1/sources/tmp/_cg/xadc_gen/example_design/xadc
+   _gen_exdes.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding /home/renato/prose/vga_scope_v1/sources/tmp/_cg/xadc_gen.asy -view all
+-origin_type imported
+Adding /home/renato/prose/vga_scope_v1/sources/tmp/_cg/xadc_gen.v -view all
+-origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "/home/renato/prose/vga_scope_v1/sources/tmp/_cg/xadc_gen.v" into library
+   work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding /home/renato/prose/vga_scope_v1/sources/tmp/_cg/xadc_gen.ucf -view all
+-origin_type created
+Adding /home/renato/prose/vga_scope_v1/sources/tmp/_cg/xadc_gen.veo -view all
+-origin_type imported
+WARNING:coreutil - WARNING: This core does not have a top level called
+   "/xadc_gen"
+   WARNING: Top level has been set to "/xadc_gen_exdes"
+Generating README file...
+Generating FLIST file...
+INFO:sim:948 - Finished FLIST file generation.
+Launching README viewer...
+Moving files to output directory...
+Finished moving files to output directory
+Wrote CGP file for project 'xadc_gen'.

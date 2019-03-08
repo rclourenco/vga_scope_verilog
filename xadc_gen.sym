@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="xadc_gen">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2015-12-13T14:5:23</timestamp>
+    <pin polarity="Input" x="0" y="80" name="di_in[15:0]" />
+    <pin polarity="Input" x="0" y="112" name="daddr_in[6:0]" />
+    <pin polarity="Input" x="0" y="144" name="den_in" />
+    <pin polarity="Input" x="0" y="176" name="dwe_in" />
+    <pin polarity="Input" x="0" y="208" name="dclk_in" />
+    <pin polarity="Input" x="0" y="272" name="reset_in" />
+    <pin polarity="Input" x="0" y="400" name="vp_in" />
+    <pin polarity="Input" x="0" y="432" name="vn_in" />
+    <pin polarity="Input" x="0" y="848" name="vauxp6" />
+    <pin polarity="Input" x="0" y="880" name="vauxn6" />
+    <pin polarity="Input" x="0" y="912" name="vauxp7" />
+    <pin polarity="Input" x="0" y="944" name="vauxn7" />
+    <pin polarity="Input" x="0" y="1360" name="vauxp14" />
+    <pin polarity="Input" x="0" y="1392" name="vauxn14" />
+    <pin polarity="Input" x="0" y="1424" name="vauxp15" />
+    <pin polarity="Input" x="0" y="1456" name="vauxn15" />
+    <pin polarity="Output" x="672" y="80" name="do_out[15:0]" />
+    <pin polarity="Output" x="672" y="112" name="drdy_out" />
+    <pin polarity="Output" x="672" y="432" name="alarm_out" />
+    <pin polarity="Output" x="672" y="496" name="channel_out[4:0]" />
+    <pin polarity="Output" x="672" y="528" name="eoc_out" />
+    <pin polarity="Output" x="672" y="560" name="eos_out" />
+    <pin polarity="Output" x="672" y="592" name="busy_out" />
+    <graph>
+        <text style="fontsize:40;fontname:Arial" x="32" y="32">xadc_gen</text>
+        <rect width="608" x="32" y="32" height="1472" />
+        <line x2="32" y1="80" y2="80" style="linewidth:W" x1="0" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="36" y="80" type="pin di_in[15:0]" />
+        <line x2="32" y1="112" y2="112" style="linewidth:W" x1="0" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="36" y="112" type="pin daddr_in[6:0]" />
+        <line x2="32" y1="144" y2="144" x1="0" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="36" y="144" type="pin den_in" />
+        <line x2="32" y1="176" y2="176" x1="0" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="36" y="176" type="pin dwe_in" />
+        <line x2="32" y1="208" y2="208" x1="0" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="36" y="208" type="pin dclk_in" />
+        <line x2="32" y1="272" y2="272" x1="0" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="36" y="272" type="pin reset_in" />
+        <line x2="32" y1="400" y2="400" x1="0" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="36" y="400" type="pin vp_in" />
+        <line x2="32" y1="432" y2="432" x1="0" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="36" y="432" type="pin vn_in" />
+        <line x2="32" y1="848" y2="848" x1="0" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="36" y="848" type="pin vauxp6" />
+        <line x2="32" y1="880" y2="880" x1="0" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="36" y="880" type="pin vauxn6" />
+        <line x2="32" y1="912" y2="912" x1="0" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="36" y="912" type="pin vauxp7" />
+        <line x2="32" y1="944" y2="944" x1="0" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="36" y="944" type="pin vauxn7" />
+        <line x2="32" y1="1360" y2="1360" x1="0" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="36" y="1360" type="pin vauxp14" />
+        <line x2="32" y1="1392" y2="1392" x1="0" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="36" y="1392" type="pin vauxn14" />
+        <line x2="32" y1="1424" y2="1424" x1="0" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="36" y="1424" type="pin vauxp15" />
+        <line x2="32" y1="1456" y2="1456" x1="0" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="36" y="1456" type="pin vauxn15" />
+        <line x2="640" y1="80" y2="80" style="linewidth:W" x1="672" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="636" y="80" type="pin do_out[15:0]" />
+        <line x2="640" y1="112" y2="112" x1="672" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="636" y="112" type="pin drdy_out" />
+        <line x2="640" y1="432" y2="432" x1="672" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="636" y="432" type="pin alarm_out" />
+        <line x2="640" y1="496" y2="496" style="linewidth:W" x1="672" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="636" y="496" type="pin channel_out[4:0]" />
+        <line x2="640" y1="528" y2="528" x1="672" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="636" y="528" type="pin eoc_out" />
+        <line x2="640" y1="560" y2="560" x1="672" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="636" y="560" type="pin eos_out" />
+        <line x2="640" y1="592" y2="592" x1="672" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="636" y="592" type="pin busy_out" />
+    </graph>
+</symbol>
