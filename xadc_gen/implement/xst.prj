@@ -1,0 +1,2 @@
+verilog work ../../xadc_gen.v
+verilog work ../example_design/xadc_gen_exdes.v
